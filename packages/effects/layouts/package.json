@@ -1,0 +1,37 @@
+{
+  "name": "@mamba/layouts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@mamba-core/composables": "workspace:*",
+    "@mamba-core/design": "workspace:*",
+    "@mamba-core/form-ui": "workspace:*",
+    "@mamba-core/layout-ui": "workspace:*",
+    "@mamba-core/menu-ui": "workspace:*",
+    "@mamba-core/popup-ui": "workspace:*",
+    "@mamba-core/shadcn-ui": "workspace:*",
+    "@mamba-core/shared": "workspace:*",
+    "@mamba-core/tabs-ui": "workspace:*",
+    "@mamba/constants": "workspace:*",
+    "@mamba/hooks": "workspace:*",
+    "@mamba/icons": "workspace:*",
+    "@mamba/locales": "workspace:*",
+    "@mamba/preferences": "workspace:*",
+    "@mamba/stores": "workspace:*",
+    "@mamba/types": "workspace:*",
+    "@mamba/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  }
+}

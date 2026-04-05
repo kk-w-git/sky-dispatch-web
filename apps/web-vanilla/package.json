@@ -1,0 +1,42 @@
+{
+  "name": "@mamba/web-vanilla",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "wanglei",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm vite build --mode production",
+    "build:analyze": "pnpm vite build --mode analyze",
+    "dev": "pnpm vite --mode development",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck"
+  },
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "dependencies": {
+    "@mamba/access": "workspace:*",
+    "@mamba/common-ui": "workspace:*",
+    "@mamba/constants": "workspace:*",
+    "@mamba/hooks": "workspace:*",
+    "@mamba/icons": "workspace:*",
+    "@mamba/layouts": "workspace:*",
+    "@mamba/locales": "workspace:*",
+    "@mamba/plugins": "workspace:*",
+    "@mamba/preferences": "workspace:*",
+    "@mamba/request": "workspace:*",
+    "@mamba/stores": "workspace:*",
+    "@mamba/styles": "workspace:*",
+    "@mamba/types": "workspace:*",
+    "@mamba/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "dayjs": "catalog:",
+    "element-plus": "catalog:",
+    "pinia": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "unplugin-element-plus": "catalog:"
+  }
+}

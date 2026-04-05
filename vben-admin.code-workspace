@@ -1,0 +1,164 @@
+{
+  "folders": [
+    {
+      "name": "@mamba/backend-mock",
+      "path": "apps/backend-mock"
+    },
+    {
+      "name": "@mamba/web-base",
+      "path": "apps/web-base"
+    },
+    {
+      "name": "@mamba/web-vanilla",
+      "path": "apps/web-vanilla"
+    },
+    {
+      "name": "@mamba/commitlint-config",
+      "path": "internal/lint-configs/commitlint-config"
+    },
+    {
+      "name": "@mamba/eslint-config",
+      "path": "internal/lint-configs/eslint-config"
+    },
+    {
+      "name": "@mamba/oxfmt-config",
+      "path": "internal/lint-configs/oxfmt-config"
+    },
+    {
+      "name": "@mamba/oxlint-config",
+      "path": "internal/lint-configs/oxlint-config"
+    },
+    {
+      "name": "@mamba/stylelint-config",
+      "path": "internal/lint-configs/stylelint-config"
+    },
+    {
+      "name": "@mamba/node-utils",
+      "path": "internal/node-utils"
+    },
+    {
+      "name": "@mamba/tailwind-config",
+      "path": "internal/tailwind-config"
+    },
+    {
+      "name": "@mamba/tsconfig",
+      "path": "internal/tsconfig"
+    },
+    {
+      "name": "@mamba/vite-config",
+      "path": "internal/vite-config"
+    },
+    {
+      "name": "@mamba-core/design",
+      "path": "packages/@core/base/design"
+    },
+    {
+      "name": "@mamba-core/icons",
+      "path": "packages/@core/base/icons"
+    },
+    {
+      "name": "@mamba-core/shared",
+      "path": "packages/@core/base/shared"
+    },
+    {
+      "name": "@mamba-core/typings",
+      "path": "packages/@core/base/typings"
+    },
+    {
+      "name": "@mamba-core/composables",
+      "path": "packages/@core/composables"
+    },
+    {
+      "name": "@mamba-core/preferences",
+      "path": "packages/@core/preferences"
+    },
+    {
+      "name": "@mamba-core/form-ui",
+      "path": "packages/@core/ui-kit/form-ui"
+    },
+    {
+      "name": "@mamba-core/layout-ui",
+      "path": "packages/@core/ui-kit/layout-ui"
+    },
+    {
+      "name": "@mamba-core/menu-ui",
+      "path": "packages/@core/ui-kit/menu-ui"
+    },
+    {
+      "name": "@mamba-core/popup-ui",
+      "path": "packages/@core/ui-kit/popup-ui"
+    },
+    {
+      "name": "@mamba-core/shadcn-ui",
+      "path": "packages/@core/ui-kit/shadcn-ui"
+    },
+    {
+      "name": "@mamba-core/tabs-ui",
+      "path": "packages/@core/ui-kit/tabs-ui"
+    },
+    {
+      "name": "@mamba/constants",
+      "path": "packages/constants"
+    },
+    {
+      "name": "@mamba/access",
+      "path": "packages/effects/access"
+    },
+    {
+      "name": "@mamba/common-ui",
+      "path": "packages/effects/common-ui"
+    },
+    {
+      "name": "@mamba/hooks",
+      "path": "packages/effects/hooks"
+    },
+    {
+      "name": "@mamba/layouts",
+      "path": "packages/effects/layouts"
+    },
+    {
+      "name": "@mamba/plugins",
+      "path": "packages/effects/plugins"
+    },
+    {
+      "name": "@mamba/request",
+      "path": "packages/effects/request"
+    },
+    {
+      "name": "@mamba/icons",
+      "path": "packages/icons"
+    },
+    {
+      "name": "@mamba/locales",
+      "path": "packages/locales"
+    },
+    {
+      "name": "@mamba/preferences",
+      "path": "packages/preferences"
+    },
+    {
+      "name": "@mamba/stores",
+      "path": "packages/stores"
+    },
+    {
+      "name": "@mamba/styles",
+      "path": "packages/styles"
+    },
+    {
+      "name": "@mamba/types",
+      "path": "packages/types"
+    },
+    {
+      "name": "@mamba/utils",
+      "path": "packages/utils"
+    },
+    {
+      "name": "@mamba/msh",
+      "path": "scripts/msh"
+    },
+    {
+      "name": "@mamba/turbo-run",
+      "path": "scripts/turbo-run"
+    }
+  ]
+}

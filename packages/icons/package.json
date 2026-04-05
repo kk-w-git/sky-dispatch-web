@@ -1,0 +1,15 @@
+{
+  "name": "@mamba/icons",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@mamba-core/icons": "workspace:*"
+  }
+}

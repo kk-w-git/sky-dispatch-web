@@ -1,0 +1,49 @@
+{
+  "name": "@mamba/common-ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./es/tippy": {
+      "types": "./src/components/tippy/index.ts",
+      "default": "./src/components/tippy/index.ts"
+    },
+    "./es/loading": {
+      "types": "./src/components/loading/index.ts",
+      "default": "./src/components/loading/index.ts"
+    }
+  },
+  "dependencies": {
+    "@mamba-core/design": "workspace:*",
+    "@mamba-core/form-ui": "workspace:*",
+    "@mamba-core/popup-ui": "workspace:*",
+    "@mamba-core/preferences": "workspace:*",
+    "@mamba-core/shadcn-ui": "workspace:*",
+    "@mamba-core/shared": "workspace:*",
+    "@mamba/constants": "workspace:*",
+    "@mamba/hooks": "workspace:*",
+    "@mamba/icons": "workspace:*",
+    "@mamba/locales": "workspace:*",
+    "@mamba/types": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "@vueuse/integrations": "catalog:",
+    "json-bigint": "catalog:",
+    "qrcode": "catalog:",
+    "tippy.js": "catalog:",
+    "vue": "catalog:",
+    "vue-json-viewer": "catalog:",
+    "vue-router": "catalog:",
+    "vue-tippy": "catalog:"
+  },
+  "devDependencies": {
+    "@types/json-bigint": "catalog:",
+    "@types/qrcode": "catalog:"
+  }
+}

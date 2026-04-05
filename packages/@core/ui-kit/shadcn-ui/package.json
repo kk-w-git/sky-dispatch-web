@@ -1,0 +1,45 @@
+{
+  "name": "@mamba-core/shadcn-ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "components.json",
+    "src"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "development": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./src/index.ts",
+        "development": "./src/index.ts",
+        "default": "./src/index.ts"
+      }
+    }
+  },
+  "dependencies": {
+    "@mamba-core/composables": "workspace:*",
+    "@mamba-core/design": "workspace:*",
+    "@mamba-core/icons": "workspace:*",
+    "@mamba-core/shared": "workspace:*",
+    "@mamba-core/typings": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "class-variance-authority": "catalog:",
+    "lucide-vue-next": "catalog:",
+    "reka-ui": "catalog:",
+    "vee-validate": "catalog:",
+    "vue": "catalog:"
+  }
+}

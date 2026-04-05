@@ -1,0 +1,26 @@
+{
+  "name": "@mamba/hooks",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@mamba-core/composables": "workspace:*",
+    "@mamba/preferences": "workspace:*",
+    "@mamba/stores": "workspace:*",
+    "@mamba/types": "workspace:*",
+    "@mamba/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:",
+    "watermark-js-plus": "catalog:"
+  }
+}
